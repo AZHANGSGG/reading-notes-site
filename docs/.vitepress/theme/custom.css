@@ -1,0 +1,194 @@
+/* ============================================================
+   懂叔的出海笔记 — 极简个人站样式（参考 danwang.co）
+   中性留白、衬线正文、克制的暖棕点缀、零花哨装饰
+   ============================================================ */
+
+:root {
+  /* 暖棕作为唯一点缀色，用得克制 */
+  --vp-c-brand-1: #9a5b3d;
+  --vp-c-brand-2: #b07a5a;
+  --vp-c-brand-3: #c79a80;
+  --vp-c-brand-soft: rgba(154, 91, 61, 0.1);
+
+  /* UI / 导航：干净无衬线 */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif;
+
+  /* 正文 / 文章标题：衬线（长读、有分量，无需下载网络字体） */
+  --ds-serif: 'Songti SC', 'SongTi SC', 'Source Han Serif SC',
+    'Source Han Serif CN', 'Noto Serif CJK SC', Georgia, 'Times New Roman', serif;
+
+  --vp-h1-letter-spacing: -0.01em;
+}
+
+.dark {
+  --vp-c-brand-1: #cf9b7a;
+  --vp-c-brand-2: #b07a5a;
+  --vp-c-brand-3: #9a5b3d;
+  --vp-c-brand-soft: rgba(207, 155, 122, 0.14);
+}
+
+/* === 正文：衬线、舒展行距，长读友好（danwang.co 风格核心） === */
+.vp-doc {
+  font-family: var(--ds-serif);
+  line-height: 1.9;
+  font-size: 17px;
+}
+.vp-doc p {
+  margin: 1.15em 0;
+}
+
+/* 标题用无衬线，与衬线正文形成清爽对比 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: var(--vp-font-family-base);
+}
+.vp-doc h2 {
+  margin-top: 2.4em;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--vp-c-divider);
+  font-weight: 650;
+}
+.vp-doc h3 {
+  margin-top: 1.8em;
+  font-weight: 600;
+}
+
+/* === 链接：暖棕细下划线，hover 加深（替代刺眼的蓝） === */
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-decoration-color: var(--vp-c-brand-3);
+  text-underline-offset: 3px;
+  font-weight: inherit;
+}
+.vp-doc a:hover {
+  text-decoration-color: var(--vp-c-brand-1);
+}
+
+/* === 引用：极简，左细线，无背景块 === */
+.vp-doc blockquote {
+  border-left: 2px solid var(--vp-c-brand-3);
+  padding-left: 1.1em;
+  color: var(--vp-c-text-2);
+  font-style: normal;
+}
+.vp-doc blockquote p {
+  margin: 0.4em 0;
+}
+
+/* === 行内代码：低调 === */
+.vp-doc :not(pre) > code {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  padding: 0.12em 0.4em;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+/* === 首页 hero：去掉渐变描金，回归朴素文字 === */
+.VPHero .name {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: var(--vp-c-brand-1);
+  letter-spacing: -0.01em;
+}
+.VPHero .text {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: var(--vp-c-text-1);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+}
+
+/* === 课件画廊（保留功能，去掉花哨悬浮） === */
+.slides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 1.5em 0 2em;
+}
+.slides-grid figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.slides-grid img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-divider);
+  background: #fff;
+  cursor: zoom-in;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  transition: border-color 0.2s ease;
+}
+.slides-grid img:hover {
+  border-color: var(--vp-c-brand-2);
+}
+.slides-grid figcaption {
+  text-align: center;
+  font-size: 0.82em;
+  color: var(--vp-c-text-3);
+  margin-top: 6px;
+}
+.medium-zoom-overlay {
+  z-index: 100;
+}
+.medium-zoom-image--opened {
+  z-index: 101;
+}
+
+/* === 书架页（/books/）：极简卡片，去掉渐变竖条 === */
+.bookshelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 2em 0;
+}
+.bookshelf .book-card {
+  display: block;
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: transparent;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.bookshelf .book-card:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-bg-soft);
+}
+.bookshelf .book-card .book-title {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin: 0 0 6px;
+}
+.bookshelf .book-card:hover .book-title {
+  color: var(--vp-c-brand-1);
+}
+.bookshelf .book-card .book-author {
+  font-size: 0.86em;
+  color: var(--vp-c-text-2);
+  margin: 0 0 10px;
+}
+.bookshelf .book-card .book-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 0.8em;
+  color: var(--vp-c-text-3);
+}
+.bookshelf .book-card .book-meta span::before {
+  content: '· ';
+}
+.bookshelf .book-card .book-meta span:first-child::before {
+  content: '';
+}

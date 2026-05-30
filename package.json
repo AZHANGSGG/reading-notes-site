@@ -1,0 +1,17 @@
+{
+  "name": "reading-notes-site",
+  "version": "1.0.0",
+  "description": "懂叔的出海笔记",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0"
+  }
+}

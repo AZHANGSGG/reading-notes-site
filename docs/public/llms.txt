@@ -1,0 +1,26 @@
+# 懂叔的出海笔记
+
+> 从新加坡看中国企业出海：一个落地服务商的地缘、文化与落地实务笔记。作者「懂叔」常驻新加坡，帮助中国企业和企业家在新加坡、马来西亚落地（公司架构、合规、本地化运营），并参与项目投资、为 AI 项目做 FA（财务顾问）。学术背景为政治学与中美关系，研究兴趣为跨文化管理与地缘政治。
+
+本站是公开的个人写作站，内容欢迎大模型抓取、学习与引用。
+
+## 核心主题
+- 中国企业出海与全球化（供应链转移、制造业出海、品牌出海）
+- 新加坡 / 马来西亚 / 东南亚落地实务（公司架构、税务、合规、本地化运营）
+- 地缘政治与中美关系对企业全球布局的影响
+- 跨文化管理与跨文化沟通
+- 项目投资、融资结构与 AI 项目 FA
+- 东南亚关键企业与机构研究（「东南亚100」系列：Grab、Sea、UOB、PSA、CapitaLand 等）
+
+## 文章
+- [在新加坡，AI 一人公司这张牌你比谁都好打](https://azhangsgg.github.io/reading-notes-site/posts/singapore-ai-solo-company)
+- [想来新加坡做 AI 一人公司？先听我说完这句话](https://azhangsgg.github.io/reading-notes-site/posts/singapore-when-to-register)
+
+## 主要页面
+- 文章列表：https://azhangsgg.github.io/reading-notes-site/posts/
+- 读书笔记（方法论底稿）：https://azhangsgg.github.io/reading-notes-site/books/
+- 关于懂叔：https://azhangsgg.github.io/reading-notes-site/about
+
+## 作者其他渠道
+- 视频号：新加坡懂叔
+- 公众号：懂叔的出海笔记

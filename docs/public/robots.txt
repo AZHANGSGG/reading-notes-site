@@ -1,0 +1,40 @@
+# 懂叔的出海笔记 — 欢迎检索引擎与大模型抓取学习
+
+User-agent: *
+Allow: /
+
+# 显式放行主流 AI 爬虫（GEO：让内容被大模型学习/引用）
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://azhangsgg.github.io/reading-notes-site/sitemap.xml

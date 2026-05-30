@@ -1,0 +1,92 @@
+# The Culture Map
+
+> Erin Meyer
+
+---
+
+## 🗺️ 全书一张图：8 个维度
+
+| # | 维度 | 一端 | 另一端 | 章节 |
+|---|------|------|------|------|
+| 1 | **Communicating** 沟通 | low-context 直白 | high-context 含蓄 | [[01_引言+Ch1_Communicating]] |
+| 2 | **Evaluating** 反馈 | direct negative 直接 | indirect negative 委婉 | [[02_Ch2_Evaluating+Ch3_Persuading]] |
+| 3 | **Persuading** 说服 | applications-first 案例先 | principles-first 原理先 | [[02_Ch2_Evaluating+Ch3_Persuading]] |
+| 4 | **Leading** 领导 | egalitarian 平等 | hierarchical 等级 | [[03_Ch4_Leading+Ch5_Deciding]] |
+| 5 | **Deciding** 决策 | consensual 共识 | top-down 自上而下 | [[03_Ch4_Leading+Ch5_Deciding]] |
+| 6 | **Trusting** 信任 | task-based 任务 | relationship-based 关系 | [[04_Ch6_Trusting+Ch7_Disagreeing]] |
+| 7 | **Disagreeing** 分歧 | confrontational 直接 | avoids confrontation 回避 | [[04_Ch6_Trusting+Ch7_Disagreeing]] |
+| 8 | **Scheduling** 时间 | linear-time 线性 | flexible-time 弹性 | [[05_Ch8_Scheduling+结语]] |
+
+---
+
+## 🧭 中国/新加坡/美国/欧洲 4 国对比（速查表）
+
+| 维度 | 中国 | 新加坡 | 美国 | 德国 | 法国 | 日本 |
+|---|---|---|---|---|---|---|
+| 1 沟通 | 高语境 | **亚洲中最低** | **世界最低** | 较低 | 高 | **世界最高** |
+| 2 反馈 | 委婉 | 委婉 | 委婉（包三明治） | 直接 | 直接 | 极委婉 |
+| 3 说服 | holistic（整体） | applications-first | applications-first | principles-first | principles-first | holistic |
+| 4 领导 | 等级 | 等级偏中 | 平等 | 等级 | 等级 | 极等级 |
+| 5 决策 | top-down | top-down 偏中 | top-down | 共识 | 共识 | **极共识（ringi）** |
+| 6 信任 | 关系 | 关系偏中 | 任务 | 任务 | 关系 | 关系 |
+| 7 分歧 | 回避（in-group） | 回避 | 中性 | 直接（Sachlichkeit） | 直接 | 极回避 |
+| 8 时间 | 弹性 | 线性偏中 | 线性 | 极线性 | 弹性偏中 | **极线性（亚洲孤岛）** |
+
+**对中国老板出海最关键的 3 个反直觉**：
+
+1. **日本不是"亚洲"**：在 Deciding + Scheduling 上接近德国，不是接近中国
+2. **新加坡是亚洲里最"低语境"**：所以是华人圈最像欧美的工作场景
+3. **美国负面反馈是世界上最委婉的之一**：哪怕美国人平时直白
+
+---
+
+## 🔑 全书 7 个核心概念（拿来即用）
+
+### 1. 文化相对性（Cultural Relativity）
+判断对方风格不是看"绝对位置"，而是看你和对方的**相对差距**。
+- 西班牙人对法国人是"关系型"，对印度人是"任务型"——同一个西班牙人。
+- 中国人在德国老板眼里很灵活，在印尼合作伙伴眼里很严谨。
+
+### 2. Sachlichkeit（客观性）
+来自德语。能把"观点"和"人"分开。
+- 在 B 象限（德国/荷兰/丹麦）：反驳你 = 想把问题搞清楚
+- 在 D 象限（中国/日本/印尼）：反驳你 = 不给你面子，关系告急
+
+### 3. Upgraders vs Downgraders（升级词 vs 降级词）
+判断一个文化反馈直白度的快速测试。
+- Upgraders（"absolutely", "totally"）→ 直接型
+- Downgraders（"a bit", "perhaps", "maybe"）→ 委婉型
+
+### 4. Big D vs little d（决策的两种语义）
+- **Big D**（德国/日本）：决定 = 承诺，定了不改，但执行飞快
+- **little d**（美国/中国）：决定 = 当前阶段共识，可随时改，执行漫长
+
+### 5. Guanxi / nemawashi（关系 / 根回）
+- **Guanxi（关系）**：中国式信任，混合 affective + cognitive
+- **Nemawashi（根回）**：日本式提前铺垫，会议前 1-2 周私下沟通定调
+
+### 6. 桃子 vs 椰子（Peach vs Coconut）
+- **桃子文化**（美国/巴西/日本部分）：外软内硬，friendliness ≠ friendship
+- **椰子文化**（法国/德国/俄罗斯）：外硬内软，冷淡 ≠ 拒绝
+
+### 7. 针 vs 刀（needle, not the knife）
+来自巴哈马谚语。跨文化分歧管理的最高境界：**用针缝合，不用刀切开**。
+> "To engage in conflict, one does not need to bring a knife that cuts, but a needle that sews."
+
+---
+
+## 📚 配套文件
+
+- [[01_引言+Ch1_Communicating]] — 高低语境
+- [[02_Ch2_Evaluating+Ch3_Persuading]] — 反馈直白度 + 说服逻辑
+- [[03_Ch4_Leading+Ch5_Deciding]] — 领导等级 + 决策模式
+- [[04_Ch6_Trusting+Ch7_Disagreeing]] — 两种信任 + 分歧管理
+- [[05_Ch8_Scheduling+结语]] — 时间观 + 全书 capstone
+
+## 章节
+
+- [引言 + Ch1：Listening to the Air（高低语境沟通）](./01_引言+Ch1_Communicating)
+- [Ch2：The Many Faces of Polite（负面反馈的直白程度）](./02_Ch2_Evaluating+Ch3_Persuading)
+- [Ch4：How Much Respect Do You Want?（领导力的等级感）](./03_Ch4_Leading+Ch5_Deciding)
+- [Ch6：The Head or the Heart（两种信任）](./04_Ch6_Trusting+Ch7_Disagreeing)
+- [Ch8：How Late Is Late?（时间观）](./05_Ch8_Scheduling+结语)
